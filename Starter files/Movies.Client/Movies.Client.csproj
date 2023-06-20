@@ -9,6 +9,11 @@
 
   <ItemGroup> 
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" /> 
+    <PackageReference Include="NSwag.ApiDescription.Client" Version="13.19.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
